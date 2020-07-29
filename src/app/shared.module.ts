@@ -12,6 +12,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -31,6 +32,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatInputModule,
     MatTableModule,
     MatButtonToggleModule,
+    MatSlideToggleModule,
     NgbModule
   ],
   exports: [
@@ -46,6 +48,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatInputModule,
     MatTableModule,
     MatButtonToggleModule,
+    MatSlideToggleModule,
     NgbModule
   ],
   providers: [],

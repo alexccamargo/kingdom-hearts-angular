@@ -20,12 +20,14 @@
       true,
       "attribute",
       "app",
+      "bbs",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
       "app",
+      "bbs",
       "kebab-case"
     ],
     "eofline": true,

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { CommandType } from '../../models/birth-by-sleep';
 
 @Component({
@@ -8,8 +8,9 @@ import { CommandType } from '../../models/birth-by-sleep';
 })
 export class CommandCardComponent implements OnInit {
 
-  @Input()
-  command: CommandType;
+  @Input() command: CommandType;
+
+  @Output() favoriteChanged = new EventEmitter();
 
   columndefs: string[] = [
     'firstItem',
@@ -44,5 +45,9 @@ export class CommandCardComponent implements OnInit {
     }
 
     return result.join(' - ');
+  }
+
+  changeFavorite(): void {
+    this.favoriteChanged.emit({ name: this.command.name, favorite: !this.command.favorite });
   }
 }

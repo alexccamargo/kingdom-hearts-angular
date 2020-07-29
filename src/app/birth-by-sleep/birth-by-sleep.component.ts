@@ -6,6 +6,7 @@ import { MatSelectChange } from '@angular/material/select';
 import { AppData, Command } from '../data';
 import { CommandType } from '../models/birth-by-sleep';
 import { IData } from '../models/shared';
+import { MatSlideToggleChange } from '@angular/material/slide-toggle';
 
 @Component({
   selector: 'app-birth-by-sleep',
@@ -22,6 +23,7 @@ export class BirthBySleepComponent implements OnInit {
   selectedCommand: string = null;
   selectedCharacter: string = null;
   selectedEffect: string = null;
+  favorite = false;
 
   constructor() { }
 
@@ -48,6 +50,7 @@ export class BirthBySleepComponent implements OnInit {
     return ({
       name: command.name,
       chars: command.chars,
+      favorite: false,
       melding: command.melding.map(m => ({
         firstItem: m.firstItem,
         secondItem: m.secondItem,
@@ -83,13 +86,27 @@ export class BirthBySleepComponent implements OnInit {
     this.applyFilter();
   }
 
+  favoriteChanged(event: MatSlideToggleChange): void {
+    this.favorite = event.checked;
+    this.applyFilter();
+  }
+
+  commandFavoriteChanged(event: {name: string, favorite: boolean}): void {
+    this.commands.find(x => x.name === event.name).favorite = event.favorite;
+    this.applyFilter();
+  }
+
   applyFilter(): void {
-    if (!this.selectedCharacter && !this.selectedCommand && !this.selectedEffect) {
+    if (!this.selectedCharacter && !this.selectedCommand && !this.selectedEffect && !this.favorite) {
       this.filteredCommands = this.commands;
       return;
     }
 
-    let filtered: Array<any> = cloneDeep(this.commands);
+    let filtered: Array<CommandType> = cloneDeep(this.commands);
+
+    if (this.favorite) {
+      filtered = filtered.filter(x => x.favorite);
+    }
 
     if (this.selectedCharacter) {
       filtered = filtered.filter(x => x.chars.includes(this.selectedCharacter));

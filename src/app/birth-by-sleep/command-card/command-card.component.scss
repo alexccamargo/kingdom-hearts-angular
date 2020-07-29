@@ -1,0 +1,8 @@
+mat-icon {
+    cursor: pointer;
+    color: lightgray;
+
+    &.favorite {
+        color: gold;
+    }
+}

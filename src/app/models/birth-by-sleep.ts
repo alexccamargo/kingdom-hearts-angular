@@ -1,6 +1,7 @@
 export interface CommandType {
     name: string;
     chars: string;
+    favorite: boolean;
     melding: MeldingType[];
 }
 
