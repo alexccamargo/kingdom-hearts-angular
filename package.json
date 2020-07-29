@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "node server.js",
+    "start-local": "ng serve",
+    "build": "ng build --aot --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -25,9 +26,12 @@
     "@angular/service-worker": "~10.0.5",
     "@ng-bootstrap/ng-bootstrap": "^7.0.0",
     "bootstrap": "^4.5.0",
+    "express": "^4.17.1",
     "lodash-es": "^4.17.15",
+    "path": "^0.12.7",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
+    "typescript": "~3.9.5",
     "zone.js": "~0.10.3"
   },
   "devDependencies": {
