@@ -1,0 +1,97 @@
+<mat-card class="m-3">
+    <mat-card-title>
+      Filters
+    </mat-card-title>
+    <mat-form-field appearance="fill" class="mr-3">
+      <mat-label>Command</mat-label>
+      <mat-select [value]="selectedCommand"  (selectionChange)="commandSelected($event)" name="food">
+        <mat-option value="" selected></mat-option>
+        <mat-option *ngFor="let filter of commandFilter" [value]=filter>{{filter}}</mat-option>
+      </mat-select >
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="mr-3">
+      <mat-label>Effect</mat-label>
+      <mat-select [value]="selectedEffect"  (selectionChange)="effectSelected($event)" >
+        <mat-option value="" selected></mat-option>
+        <mat-option *ngFor="let filter of effectsFilter" [value]="filter">{{filter}}</mat-option>
+      </mat-select >
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Character</mat-label>
+      <mat-select [value]="selectedCharacter"  (selectionChange)="characterSelected($event)" >
+        <mat-option value="" selected></mat-option>
+        <mat-option value="A">Aqua</mat-option>
+        <mat-option value="T">Terra</mat-option>
+        <mat-option value="V">Ventus</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </mat-card>
+  
+  <mat-card class="m-3" *ngFor="let command of filteredCommands">
+    <mat-card-title>
+      {{ command.name}}
+    </mat-card-title>
+    <mat-card-content>
+      <div>
+        <span><b>Characters: </b></span> <span>{{ getCharacters(command.chars) }}</span>
+      </div>
+      <div>
+        <table mat-table [dataSource]="command.melding" class="w-100">
+          <ng-container matColumnDef="firstItem">
+            <th mat-header-cell *matHeaderCellDef> First Item </th>
+            <td mat-cell *matCellDef="let element"> {{element.firstItem}} </td>
+          </ng-container>
+  
+          <ng-container matColumnDef="secondItem">
+            <th mat-header-cell *matHeaderCellDef> Second Item </th>
+            <td mat-cell *matCellDef="let element"> {{element.secondItem}} </td>
+          </ng-container>
+  
+          <ng-container matColumnDef="percent">
+            <th mat-header-cell *matHeaderCellDef> Chance % </th>
+            <td mat-cell *matCellDef="let element"> {{element.percent}} </td>
+          </ng-container>
+  
+          <ng-container matColumnDef="Shimmering">
+            <th mat-header-cell *matHeaderCellDef> Shimmering </th>
+            <td mat-cell *matCellDef="let element"> {{element.crystalEffect?.Shimmering}} </td>
+          </ng-container>
+  
+          <ng-container matColumnDef="Fleeting">
+            <th mat-header-cell *matHeaderCellDef> Fleeting </th>
+            <td mat-cell *matCellDef="let element"> {{element.crystalEffect?.Fleeting}} </td>
+          </ng-container>
+  
+          <ng-container matColumnDef="Pulsing">
+            <th mat-header-cell *matHeaderCellDef> Pulsing </th>
+            <td mat-cell *matCellDef="let element"> {{element.crystalEffect?.Pulsing}} </td>
+          </ng-container>
+  
+          <ng-container matColumnDef="Wellspring">
+            <th mat-header-cell *matHeaderCellDef> Wellspring </th>
+            <td mat-cell *matCellDef="let element"> {{element.crystalEffect?.Wellspring}} </td>
+          </ng-container>
+  
+          <ng-container matColumnDef="Soothing">
+            <th mat-header-cell *matHeaderCellDef> Soothing </th>
+            <td mat-cell *matCellDef="let element"> {{element.crystalEffect?.Soothing}} </td>
+          </ng-container>
+  
+          <ng-container matColumnDef="Hungry">
+            <th mat-header-cell *matHeaderCellDef> Hungry </th>
+            <td mat-cell *matCellDef="let element"> {{element.crystalEffect?.Hungry}} </td>
+          </ng-container>
+  
+          <ng-container matColumnDef="Abounding">
+            <th mat-header-cell *matHeaderCellDef> Abounding </th>
+            <td mat-cell *matCellDef="let element"> {{element.crystalEffect?.Abounding}} </td>
+          </ng-container>
+  
+          <tr mat-header-row *matHeaderRowDef="columndefs"></tr>
+          <tr mat-row *matRowDef="let row; columns: columndefs;"></tr>
+          
+          
+        </table>
+      </div>
+    </mat-card-content>
+  </mat-card>
