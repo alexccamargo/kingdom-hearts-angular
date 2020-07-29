@@ -24,6 +24,7 @@ export class BirthBySleepComponent implements OnInit {
   selectedCharacter: string = null;
   selectedEffect: string = null;
   favorite = false;
+  favoriteCommandStorageKey = 'fav-com';
 
   constructor() { }
 
@@ -32,6 +33,23 @@ export class BirthBySleepComponent implements OnInit {
     this.filteredCommands = this.commands;
     this.commandFilter = this.getCommandFilter();
     this.effectsFilter = AppData.effects;
+    this.loadFavoriteFromStore();
+  }
+
+  loadFavoriteFromStore(): void {
+    const favoriteCommandItems = localStorage.getItem(this.favoriteCommandStorageKey);
+    if (favoriteCommandItems) {
+      const favoriteCommand: string[] = JSON.parse(favoriteCommandItems) || [];
+
+      this.commands.forEach(c => {
+        c.favorite = favoriteCommand.includes(c.name);
+      });
+    }
+  }
+
+  saveFavoriteToStore(): void {
+    const favorites = this.commands.filter(x => x.favorite).map(x => x.name);
+    localStorage.setItem(this.favoriteCommandStorageKey, JSON.stringify(favorites));
   }
 
   getCommandFilter(): string[] {
@@ -94,6 +112,7 @@ export class BirthBySleepComponent implements OnInit {
   commandFavoriteChanged(event: {name: string, favorite: boolean}): void {
     this.commands.find(x => x.name === event.name).favorite = event.favorite;
     this.applyFilter();
+    this.saveFavoriteToStore();
   }
 
   applyFilter(): void {
