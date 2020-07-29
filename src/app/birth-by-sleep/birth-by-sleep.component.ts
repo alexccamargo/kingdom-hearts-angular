@@ -23,19 +23,6 @@ export class BirthBySleepComponent implements OnInit {
   selectedCharacter: string = null;
   selectedEffect: string = null;
 
-  columndefs: string[] = [
-    'firstItem',
-    'secondItem',
-    'percent',
-    'Shimmering',
-    'Fleeting',
-    'Pulsing',
-    'Wellspring',
-    'Soothing',
-    'Hungry',
-    'Abounding',
-  ];
-
   constructor() { }
 
   ngOnInit(): void {
@@ -79,23 +66,6 @@ export class BirthBySleepComponent implements OnInit {
 
   setProperty<T, K extends keyof T>(obj: T, key: K, value: T[K]): void {
     obj[key] = value;
-  }
-
-  getCharacters(chars: string): string {
-    const result = [];
-    if (chars.includes('A')) {
-      result.push('Aqua');
-    }
-
-    if (chars.includes('T')) {
-      result.push('Terra');
-    }
-
-    if (chars.includes('V')) {
-      result.push('Ventus');
-    }
-
-    return result.join(' - ');
   }
 
   commandSelected(event: MatSelectChange): void {
