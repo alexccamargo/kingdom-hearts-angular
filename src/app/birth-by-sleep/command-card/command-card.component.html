@@ -1,11 +1,11 @@
 <mat-card class="m-3">
     <mat-card-title>
       {{ command.name}}
+      <mat-icon [class.favorite]="command.favorite" (click)="changeFavorite()">star</mat-icon>
     </mat-card-title>
     <mat-card-content>
-      <div class="d-flex justify-content-between">
+      <div>
         <span><b>Characters: </b>{{ getCharacters(command.chars) }}</span>
-        <mat-icon [class.favorite]="command.favorite" (click)="changeFavorite()">star</mat-icon>
       </div>
       <div>
         <table mat-table [dataSource]="command.melding" class="w-100">

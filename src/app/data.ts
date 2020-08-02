@@ -19,7 +19,7 @@ export class CrystalEffect {
 
 export class AppData {
 
-  static effects: Array<string> = ['Air Combo Plus', 'Attack Haste', 'Blizzard Boost', 'Blizzard Screen', 'Combo F Boost', 'Combo Plus', 'Cure Boost', 'Damage Syphon', 'Dark Screen', 'Defender', 'EXP Chance', 'EXP Walker', 'Finish Boost', 'Fire Boost', 'Fire Screen', 'HP Boost', 'HP Prize Plus', 'Item Boost', 'Leaf Bracer', 'Link Prize Plus', 'Luck Boost', 'Lucky Strike', 'Magic Haste', 'Once More', 'Reload Boost', 'Second Chance', 'Thunder Boost', 'Thunder Screen', 'Treasure Magnet'];
+  static effects: Array<string> = ['Air Combo Plus', 'Attack Haste', 'Blizzard Boost', 'Blizzard Screen', 'Combo F Boost', 'Combo Plus', 'Cure Boost', 'Damage Syphon', 'Dark Screen', 'Defender', 'EXP Chance', 'EXP Walker', 'Finish Boost', 'Fire Boost', 'Fire Screen', 'HP Boost', 'HP Prize Plus', 'Item Boost', 'Leaf Bracer', 'Link Prize Plus', 'Lucky Strike', 'Magic Haste', 'Once More', 'Reload Boost', 'Second Chance', 'Thunder Boost', 'Thunder Screen', 'Treasure Magnet'];
 
   static commands: Array<Command> = [
     {
@@ -244,7 +244,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -1834,7 +1834,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         }
@@ -2518,7 +2518,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -2950,7 +2950,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -2986,7 +2986,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -3100,7 +3100,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -3208,7 +3208,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         }
@@ -4432,7 +4432,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -4912,7 +4912,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -5020,7 +5020,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -5092,7 +5092,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         }
@@ -6046,7 +6046,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -6460,7 +6460,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         }
@@ -6502,7 +6502,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -7762,7 +7762,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -7876,7 +7876,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -8494,7 +8494,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
@@ -9580,7 +9580,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Luck Boost'
+              effect: 'Lucky Strike'
             }
           ]
         },
