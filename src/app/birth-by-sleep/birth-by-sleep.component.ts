@@ -23,6 +23,7 @@ export class BirthBySleepComponent implements OnInit {
   selectedCommand: string = null;
   selectedCharacter: string = null;
   selectedEffect: string = null;
+  orderBy: string = null;
   favorite = false;
   favoriteCommandStorageKey = 'fav-com';
 
@@ -90,22 +91,27 @@ export class BirthBySleepComponent implements OnInit {
   }
 
   commandSelected(event: MatSelectChange): void {
-    this.selectedCommand = event.value;
+    this.selectedCommand = event.value || undefined;
     this.applyFilter();
   }
 
   characterSelected(event: MatSelectChange): void {
-    this.selectedCharacter = event.value;
+    this.selectedCharacter = event.value || undefined;
     this.applyFilter();
   }
 
   effectSelected(event: MatSelectChange): void {
-    this.selectedEffect = event.value;
+    this.selectedEffect = event.value || undefined;
     this.applyFilter();
   }
 
   favoriteChanged(event: MatSlideToggleChange): void {
     this.favorite = event.checked;
+    this.applyFilter();
+  }
+
+  orderByChanged(event: MatSelectChange): void {
+    this.orderBy = event.value || undefined;
     this.applyFilter();
   }
 
@@ -116,7 +122,7 @@ export class BirthBySleepComponent implements OnInit {
   }
 
   applyFilter(): void {
-    if (!this.selectedCharacter && !this.selectedCommand && !this.selectedEffect && !this.favorite) {
+    if (!this.selectedCharacter && !this.selectedCommand && !this.selectedEffect && !this.favorite && !this.orderBy) {
       this.filteredCommands = this.commands;
       return;
     }
@@ -152,6 +158,11 @@ export class BirthBySleepComponent implements OnInit {
       }
     }
 
+    if (this.orderBy) {
+      if (this.orderBy === 'name'){
+        filtered = filtered.sort((a, b) => a.name > b.name ? 1 : -1);
+      }
+    }
     this.filteredCommands = filtered;
   }
 

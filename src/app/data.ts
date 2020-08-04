@@ -137,570 +137,6 @@ export class AppData {
       ]
     },
     {
-      name: 'Slot Edge',
-      chars: 'A',
-      melding: [
-        {
-          firstItem: 'Wishing Edge',
-          secondItem: 'Cure',
-          group: 'o',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Poison Edge',
-          secondItem: 'Cura',
-          group: 'p',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Walker'
-            }
-          ]
-        },
-        {
-          firstItem: 'Blizzard Edge',
-          secondItem: 'Cura',
-          group: 'g',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Curaga',
-          secondItem: 'Renewal Block',
-          group: 'n',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Second Chance'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Defender'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Curaga',
-          secondItem: 'Focus Block',
-          group: 'p',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Walker'
-            }
-          ]
-        },
-        {
-          firstItem: 'Curaga',
-          secondItem: 'Renewal Barrier',
-          group: 'n',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Second Chance'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Defender'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Curaga',
-          secondItem: 'Focus Barrier',
-          group: 'p',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Walker'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Barrier Surge',
-      chars: 'A',
-      melding: [
-        {
-          firstItem: 'Fire Dash',
-          secondItem: 'Barrier',
-          group: 'd',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Stun Edge',
-          secondItem: 'Barrier',
-          group: 'k',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Wishing Edge',
-      chars: 'A',
-      melding: [
-        {
-          firstItem: 'Strike Raid',
-          secondItem: 'Barrier Surge',
-          group: 'o',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Barrier Surge',
-          secondItem: 'Stun Edge',
-          group: 'k',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Stun Edge',
-          secondItem: 'Binding Strike',
-          group: 'j',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Once More'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Defender'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Chance'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Stun Edge',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Sliding Dash',
-          secondItem: 'Thunder',
-          group: 'k',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Strike Raid',
-          secondItem: 'Thunder',
-          group: 'l',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Strike Raid',
-          secondItem: 'Thundara',
-          group: 'k',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
       name: 'Meteor Crash',
       chars: 'T',
       melding: [
@@ -779,384 +215,6 @@ export class AppData {
       ]
     },
     {
-      name: 'Quake',
-      chars: 'T',
-      melding: [
-        {
-          firstItem: 'Brutal Blast',
-          secondItem: 'Zero Graviga',
-          group: 'b',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Once More'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Damage Syphon'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Chance'
-            }
-          ]
-        },
-        {
-          firstItem: 'Brutal Blast',
-          secondItem: 'Magnega',
-          group: 'c',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Stun Edge',
-          secondItem: 'Mine Shield',
-          group: 'o',
-          percent: '30',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Binding Strike',
-          secondItem: 'Mine Square',
-          group: 'l',
-          percent: '30',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Brutal Blast',
-          secondItem: 'Brutal Blast',
-          group: 'n',
-          percent: '30',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Second Chance'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Defender'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Fire Strike',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Poison Edge',
-          secondItem: 'Fira',
-          group: 'd',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Wishing Edge',
-          secondItem: 'Ignite',
-          group: 'a',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Stun Edge',
-          secondItem: 'Fire',
-          group: 'k',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Brutal Blast',
-      chars: 'T',
-      melding: [
-        {
-          firstItem: 'Stun Edge',
-          secondItem: 'Mine Shield',
-          group: 'o',
-          percent: '70',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Binding Strike',
-          secondItem: 'Mine Square',
-          group: 'l',
-          percent: '70',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        }
-      ]
-    },
-    {
       name: 'Magic Hour',
       chars: 'A',
       melding: [
@@ -1199,234 +257,6 @@ export class AppData {
         {
           firstItem: 'Barrier Surge',
           secondItem: 'Aeroga',
-          group: 'n',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Second Chance'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Defender'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Zero Graviga',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Thundara',
-          secondItem: 'Zero Gravira',
-          group: 'i',
-          percent: '80',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Zero Gravity',
-          secondItem: 'Zero Gravira',
-          group: 'm',
-          percent: '80',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Zero Gravira',
-          secondItem: 'Zero Gravira',
-          group: 'n',
-          percent: '80',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Second Chance'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Defender'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Aeroga',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Quick Blitz',
-          secondItem: 'Aerora',
-          group: 'o',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Aero',
-          secondItem: 'Aerora',
-          group: 'm',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Aerora',
-          secondItem: 'Aerora',
           group: 'n',
           percent: '90',
           crystalEffect: [
@@ -1577,270 +407,6 @@ export class AppData {
       ]
     },
     {
-      name: 'Fira',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Fire Dash',
-          secondItem: 'Fire',
-          group: 'd',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Fire Strike',
-          secondItem: 'Fire',
-          group: 'd',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Fire',
-          secondItem: 'Fire',
-          group: 'a',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Fire',
-          secondItem: 'Ignite',
-          group: 'c',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Confusion Strike',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Quick Blitz',
-          secondItem: 'Confuse',
-          group: 'o',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Sliding Dash',
-          secondItem: 'Zero Gravity',
-          group: 'k',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Strike Raid',
-          secondItem: 'Confuse',
-          group: 'g',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        }
-      ]
-    },
-    {
       name: 'Dark Haze',
       chars: 'T',
       melding: [
@@ -1955,384 +521,6 @@ export class AppData {
       ]
     },
     {
-      name: 'Zero Gravira',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Thunder',
-          secondItem: 'Zero Gravity',
-          group: 'i',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Zero Gravity',
-          secondItem: 'Zero Gravity',
-          group: 'm',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Magnet',
-          secondItem: 'Aero',
-          group: 'p',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Walker'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Blackout',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Zero Gravity',
-          secondItem: 'Confuse',
-          group: 'm',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Zero Gravira',
-          secondItem: 'Confuse',
-          group: 'n',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Second Chance'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Defender'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Zero Gravira',
-          secondItem: 'Poison',
-          group: 'p',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Walker'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Fire Surge',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Fire Dash',
-          secondItem: 'Ignite',
-          group: 'd',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Fire Strike',
-          secondItem: 'Fira',
-          group: 'a',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Confusion Strike',
-          secondItem: 'Fira',
-          group: 'o',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Binding Strike',
-          secondItem: 'Fira',
-          group: 'k',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
       name: 'Sonic Blade',
       chars: 'TVA',
       melding: [
@@ -2429,156 +617,6 @@ export class AppData {
             {
               crystal: 'Wellspring',
               effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Thunder Surge',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Fire Dash',
-          secondItem: 'Thundara',
-          group: 'd',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Freeze Raid',
-          secondItem: 'Thundara',
-          group: 'g',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Stun Edge',
-          secondItem: 'Thundara',
-          group: 'i',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Confusion Strike',
-          secondItem: 'Thundara',
-          group: 'i',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
             },
             {
               crystal: 'Soothing',
@@ -2717,84 +755,6 @@ export class AppData {
       ]
     },
     {
-      name: 'Stopga',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Stop',
-          secondItem: 'Stopra',
-          group: 'i',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Stopra',
-          secondItem: 'Stopra',
-          group: 'j',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Once More'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Defender'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Chance'
-            }
-          ]
-        }
-      ]
-    },
-    {
       name: 'Strike Raid',
       chars: 'TVA',
       melding: [
@@ -2897,420 +857,6 @@ export class AppData {
             {
               crystal: 'Wellspring',
               effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Blizzara',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Strike Raid',
-          secondItem: 'Blizzard',
-          group: 'g',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Blizzard Edge',
-          secondItem: 'Blizzard',
-          group: 'g',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Blizzard',
-          secondItem: 'Blizzard',
-          group: 'e',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Blizzard',
-          secondItem: 'Aero',
-          group: 'h',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Walker'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Blizzard Edge',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Quick Blitz',
-          secondItem: 'Blizzard',
-          group: 'g',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Quick Blitz',
-          secondItem: 'Blizzara',
-          group: 'h',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Walker'
-            }
-          ]
-        },
-        {
-          firstItem: 'Sliding Dash',
-          secondItem: 'Blizzard',
-          group: 'e',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Sliding Dash',
-          secondItem: 'Blizzara',
-          group: 'g',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Binding Strike',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Quick Blitz',
-          secondItem: 'Bind',
-          group: 'k',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Strike Raid',
-          secondItem: 'Bind',
-          group: 'o',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Stun Edge',
-          secondItem: 'Zero Gravity',
-          group: 'i',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
             },
             {
               crystal: 'Soothing',
@@ -3437,120 +983,6 @@ export class AppData {
             {
               crystal: 'Abounding',
               effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Magnera',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Stun Edge',
-          secondItem: 'Magnet',
-          group: 'k',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Thunder',
-          secondItem: 'Magnet',
-          group: 'i',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Magnet',
-          secondItem: 'Magnet',
-          group: 'm',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
             }
           ]
         }
@@ -3743,276 +1175,6 @@ export class AppData {
       ]
     },
     {
-      name: 'Magnega',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Magnet',
-          secondItem: 'Magnera',
-          group: 'i',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Magnera',
-          secondItem: 'Magnera',
-          group: 'j',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Once More'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Defender'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Chance'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Thundaga',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Binding Strike',
-          secondItem: 'Thundara',
-          group: 'k',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Thunder',
-          secondItem: 'Thundara',
-          group: 'i',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Thundara',
-          secondItem: 'Thundara',
-          group: 'j',
-          percent: '90',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Once More'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Defender'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Chance'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Stun Block',
-      chars: 'TV',
-      melding: [
-        {
-          firstItem: 'Stun Edge',
-          secondItem: 'Block',
-          group: 'l',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Thundaga',
-          secondItem: 'Block',
-          group: 'i',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
       name: 'Wind Raid',
       chars: 'V',
       melding: [
@@ -4091,12 +1253,48 @@ export class AppData {
       ]
     },
     {
-      name: 'Ignite',
+      name: 'Fire Surge',
       chars: 'TVA',
       melding: [
         {
-          firstItem: 'Fire',
-          secondItem: 'Bind',
+          firstItem: 'Fire Dash',
+          secondItem: 'Ignite',
+          group: 'd',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Fire Strike',
+          secondItem: 'Fira',
           group: 'a',
           percent: '100',
           crystalEffect: [
@@ -4131,14 +1329,14 @@ export class AppData {
           ]
         },
         {
-          firstItem: 'Fira',
-          secondItem: 'Bind',
-          group: 'c',
+          firstItem: 'Confusion Strike',
+          secondItem: 'Fira',
+          group: 'o',
           percent: '100',
           crystalEffect: [
             {
               crystal: 'Shimmering',
-              effect: 'Fire Screen'
+              effect: 'Dark Screen'
             },
             {
               crystal: 'Fleeting',
@@ -4150,31 +1348,25 @@ export class AppData {
             },
             {
               crystal: 'Wellspring',
-              effect: 'Combo Plus'
+              effect: 'Air Combo Plus'
             },
             {
               crystal: 'Soothing',
-              effect: 'HP Boost'
+              effect: 'Item Boost'
             },
             {
               crystal: 'Hungry',
-              effect: 'HP Prize Plus'
+              effect: 'Treasure Magnet'
             },
             {
               crystal: 'Abounding',
-              effect: 'Link Prize Plus'
+              effect: 'Lucky Strike'
             }
           ]
-        }
-      ]
-    },
-    {
-      name: 'Thundara',
-      chars: 'TVA',
-      melding: [
+        },
         {
-          firstItem: 'Stun Edge',
-          secondItem: 'Thunder',
+          firstItem: 'Binding Strike',
+          secondItem: 'Fira',
           group: 'k',
           percent: '100',
           crystalEffect: [
@@ -4207,10 +1399,166 @@ export class AppData {
               effect: 'Link Prize Plus'
             }
           ]
+        }
+      ]
+    },
+    {
+      name: 'Barrier Surge',
+      chars: 'A',
+      melding: [
+        {
+          firstItem: 'Fire Dash',
+          secondItem: 'Barrier',
+          group: 'd',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
         },
         {
-          firstItem: 'Thunder',
-          secondItem: 'Thunder',
+          firstItem: 'Stun Edge',
+          secondItem: 'Barrier',
+          group: 'k',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Thunder Surge',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Fire Dash',
+          secondItem: 'Thundara',
+          group: 'd',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Freeze Raid',
+          secondItem: 'Thundara',
+          group: 'g',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Blizzard Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Stun Edge',
+          secondItem: 'Thundara',
           group: 'i',
           percent: '100',
           crystalEffect: [
@@ -4245,26 +1593,26 @@ export class AppData {
           ]
         },
         {
-          firstItem: 'Zero Gravity',
-          secondItem: 'Magnet',
-          group: 'l',
-          percent: '100',
+          firstItem: 'Confusion Strike',
+          secondItem: 'Thundara',
+          group: 'i',
+          percent: '95',
           crystalEffect: [
             {
               crystal: 'Shimmering',
-              effect: 'Thunder Screen'
+              effect: 'Thunder Boost'
             },
             {
               crystal: 'Fleeting',
-              effect: 'Attack Haste'
+              effect: 'Magic Haste'
             },
             {
               crystal: 'Pulsing',
-              effect: 'Finish Boost'
+              effect: 'Combo F Boost'
             },
             {
               crystal: 'Wellspring',
-              effect: 'Combo Plus'
+              effect: 'Air Combo Plus'
             },
             {
               crystal: 'Soothing',
@@ -4276,7 +1624,7 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Lucky Strike'
+              effect: 'Link Prize Plus'
             }
           ]
         }
@@ -4391,120 +1739,6 @@ export class AppData {
             {
               crystal: 'Abounding',
               effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Aerora',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Quick Blitz',
-          secondItem: 'Aero',
-          group: 'g',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Thunder',
-          secondItem: 'Aero',
-          group: 'i',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Aero',
-          secondItem: 'Aero',
-          group: 'e',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Blizzard Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
             }
           ]
         }
@@ -5099,234 +2333,6 @@ export class AppData {
       ]
     },
     {
-      name: 'Poison Edge',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Quick Blitz',
-          secondItem: 'Poison',
-          group: 'o',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Sliding Dash',
-          secondItem: 'Poison',
-          group: 'k',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Strike Raid',
-          secondItem: 'Poison',
-          group: 'd',
-          percent: '95',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Cura',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Thunder',
-          secondItem: 'Cure',
-          group: 'i',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Cure',
-          secondItem: 'Cure',
-          group: 'm',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Cure',
-          secondItem: 'Aero',
-          group: 'o',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        }
-      ]
-    },
-    {
       name: 'Time Splicer',
       chars: 'VA',
       melding: [
@@ -5477,92 +2483,14 @@ export class AppData {
       ]
     },
     {
-      name: 'Curaga',
+      name: 'Poison Edge',
       chars: 'TVA',
       melding: [
         {
-          firstItem: 'Cure',
-          secondItem: 'Cura',
-          group: 'm',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Cura',
-          secondItem: 'Cura',
-          group: 'n',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Second Chance'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Defender'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Renewal Block',
-      chars: 'TV',
-      melding: [
-        {
-          firstItem: 'Curaga',
-          secondItem: 'Block',
-          group: 'p',
-          percent: '100',
+          firstItem: 'Quick Blitz',
+          secondItem: 'Poison',
+          group: 'o',
+          percent: '95',
           crystalEffect: [
             {
               crystal: 'Shimmering',
@@ -5570,11 +2498,11 @@ export class AppData {
             },
             {
               crystal: 'Fleeting',
-              effect: 'Magic Haste'
+              effect: 'Attack Haste'
             },
             {
               crystal: 'Pulsing',
-              effect: 'Combo F Boost'
+              effect: 'Finish Boost'
             },
             {
               crystal: 'Wellspring',
@@ -5590,15 +2518,51 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'EXP Walker'
+              effect: 'Lucky Strike'
             }
           ]
         },
         {
-          firstItem: 'Esuna',
-          secondItem: 'Block',
-          group: 'c',
-          percent: '100',
+          firstItem: 'Sliding Dash',
+          secondItem: 'Poison',
+          group: 'k',
+          percent: '95',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Strike Raid',
+          secondItem: 'Poison',
+          group: 'd',
+          percent: '95',
           crystalEffect: [
             {
               crystal: 'Shimmering',
@@ -5610,7 +2574,7 @@ export class AppData {
             },
             {
               crystal: 'Pulsing',
-              effect: 'Finish Boost'
+              effect: 'Leaf Bracer'
             },
             {
               crystal: 'Wellspring',
@@ -5633,13 +2597,13 @@ export class AppData {
       ]
     },
     {
-      name: 'Renewal Barrier',
+      name: 'Wishing Edge',
       chars: 'A',
       melding: [
         {
-          firstItem: 'Curaga',
-          secondItem: 'Barrier',
-          group: 'p',
+          firstItem: 'Strike Raid',
+          secondItem: 'Barrier Surge',
+          group: 'o',
           percent: '100',
           crystalEffect: [
             {
@@ -5648,11 +2612,11 @@ export class AppData {
             },
             {
               crystal: 'Fleeting',
-              effect: 'Magic Haste'
+              effect: 'Attack Haste'
             },
             {
               crystal: 'Pulsing',
-              effect: 'Combo F Boost'
+              effect: 'Finish Boost'
             },
             {
               crystal: 'Wellspring',
@@ -5668,19 +2632,55 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'EXP Walker'
+              effect: 'Lucky Strike'
             }
           ]
         },
         {
-          firstItem: 'Esuna',
-          secondItem: 'Barrier',
-          group: 'n',
+          firstItem: 'Barrier Surge',
+          secondItem: 'Stun Edge',
+          group: 'k',
           percent: '100',
           crystalEffect: [
             {
               crystal: 'Shimmering',
-              effect: 'Cure Boost'
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Stun Edge',
+          secondItem: 'Binding Strike',
+          group: 'j',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
             },
             {
               crystal: 'Fleeting',
@@ -5688,11 +2688,11 @@ export class AppData {
             },
             {
               crystal: 'Pulsing',
-              effect: 'Second Chance'
+              effect: 'Combo F Boost'
             },
             {
               crystal: 'Wellspring',
-              effect: 'Combo Plus'
+              effect: 'Once More'
             },
             {
               crystal: 'Soothing',
@@ -5704,29 +2704,29 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Lucky Strike'
+              effect: 'EXP Chance'
             }
           ]
         }
       ]
     },
     {
-      name: 'Mine Shield',
-      chars: 'TV',
+      name: 'Blizzard Edge',
+      chars: 'TVA',
       melding: [
         {
-          firstItem: 'Fira',
-          secondItem: 'Zero Gravity',
-          group: 'a',
-          percent: '100',
+          firstItem: 'Quick Blitz',
+          secondItem: 'Blizzard',
+          group: 'g',
+          percent: '95',
           crystalEffect: [
             {
               crystal: 'Shimmering',
-              effect: 'Fire Boost'
+              effect: 'Blizzard Screen'
             },
             {
               crystal: 'Fleeting',
-              effect: 'Magic Haste'
+              effect: 'Attack Haste'
             },
             {
               crystal: 'Pulsing',
@@ -5738,7 +2738,7 @@ export class AppData {
             },
             {
               crystal: 'Soothing',
-              effect: 'HP Boost'
+              effect: 'Item Boost'
             },
             {
               crystal: 'Hungry',
@@ -5746,19 +2746,133 @@ export class AppData {
             },
             {
               crystal: 'Abounding',
-              effect: 'Link Prize Plus'
+              effect: 'Lucky Strike'
             }
           ]
         },
         {
-          firstItem: 'Fira',
-          secondItem: 'Block',
-          group: 'c',
-          percent: '100',
+          firstItem: 'Quick Blitz',
+          secondItem: 'Blizzara',
+          group: 'h',
+          percent: '95',
           crystalEffect: [
             {
               crystal: 'Shimmering',
-              effect: 'Fire Screen'
+              effect: 'Blizzard Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Walker'
+            }
+          ]
+        },
+        {
+          firstItem: 'Sliding Dash',
+          secondItem: 'Blizzard',
+          group: 'e',
+          percent: '95',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Blizzard Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Sliding Dash',
+          secondItem: 'Blizzara',
+          group: 'g',
+          percent: '95',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Blizzard Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Stun Edge',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Sliding Dash',
+          secondItem: 'Thunder',
+          group: 'k',
+          percent: '95',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
             },
             {
               crystal: 'Fleeting',
@@ -5778,7 +2892,7 @@ export class AppData {
             },
             {
               crystal: 'Hungry',
-              effect: 'HP Prize Plus'
+              effect: 'Treasure Magnet'
             },
             {
               crystal: 'Abounding',
@@ -5787,8 +2901,344 @@ export class AppData {
           ]
         },
         {
-          firstItem: 'Ignite',
-          secondItem: 'Stop',
+          firstItem: 'Strike Raid',
+          secondItem: 'Thunder',
+          group: 'l',
+          percent: '95',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Strike Raid',
+          secondItem: 'Thundara',
+          group: 'k',
+          percent: '95',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Slot Edge',
+      chars: 'A',
+      melding: [
+        {
+          firstItem: 'Wishing Edge',
+          secondItem: 'Cure',
+          group: 'o',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Poison Edge',
+          secondItem: 'Cura',
+          group: 'p',
+          percent: '95',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Walker'
+            }
+          ]
+        },
+        {
+          firstItem: 'Blizzard Edge',
+          secondItem: 'Cura',
+          group: 'g',
+          percent: '95',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Blizzard Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Curaga',
+          secondItem: 'Renewal Block',
+          group: 'n',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Second Chance'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Curaga',
+          secondItem: 'Focus Block',
+          group: 'p',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Walker'
+            }
+          ]
+        },
+        {
+          firstItem: 'Curaga',
+          secondItem: 'Renewal Barrier',
+          group: 'n',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Second Chance'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Curaga',
+          secondItem: 'Focus Barrier',
+          group: 'p',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Walker'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Fire Strike',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Poison Edge',
+          secondItem: 'Fira',
           group: 'd',
           percent: '100',
           crystalEffect: [
@@ -5823,132 +3273,18 @@ export class AppData {
           ]
         },
         {
-          firstItem: 'Stopra',
-          secondItem: 'Block',
-          group: 'm',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Mine Square',
-      chars: 'A',
-      melding: [
-        {
-          firstItem: 'Fira',
-          secondItem: 'Stop',
-          group: 'a',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Leaf Bracer'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Fira',
-          secondItem: 'Barrier',
-          group: 'c',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Aerora',
+          firstItem: 'Wishing Edge',
           secondItem: 'Ignite',
-          group: 'd',
+          group: 'a',
           percent: '100',
           crystalEffect: [
             {
               crystal: 'Shimmering',
-              effect: 'Fire Screen'
+              effect: 'Fire Boost'
             },
             {
               crystal: 'Fleeting',
-              effect: 'Attack Haste'
+              effect: 'Magic Haste'
             },
             {
               crystal: 'Pulsing',
@@ -5956,7 +3292,7 @@ export class AppData {
             },
             {
               crystal: 'Wellspring',
-              effect: 'Combo Plus'
+              effect: 'Air Combo Plus'
             },
             {
               crystal: 'Soothing',
@@ -5973,26 +3309,68 @@ export class AppData {
           ]
         },
         {
-          firstItem: 'Stopra',
-          secondItem: 'Barrier',
-          group: 'm',
+          firstItem: 'Stun Edge',
+          secondItem: 'Fire',
+          group: 'k',
           percent: '100',
           crystalEffect: [
             {
               crystal: 'Shimmering',
-              effect: 'Cure Boost'
+              effect: 'Thunder Screen'
             },
             {
               crystal: 'Fleeting',
-              effect: 'Magic Haste'
+              effect: 'Attack Haste'
             },
             {
               crystal: 'Pulsing',
-              effect: 'Combo F Boost'
+              effect: 'Finish Boost'
             },
             {
               crystal: 'Wellspring',
               effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Confusion Strike',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Quick Blitz',
+          secondItem: 'Confuse',
+          group: 'o',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
             },
             {
               crystal: 'Soothing',
@@ -6005,6 +3383,192 @@ export class AppData {
             {
               crystal: 'Abounding',
               effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Sliding Dash',
+          secondItem: 'Zero Gravity',
+          group: 'k',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Strike Raid',
+          secondItem: 'Confuse',
+          group: 'g',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Blizzard Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Binding Strike',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Quick Blitz',
+          secondItem: 'Bind',
+          group: 'k',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Strike Raid',
+          secondItem: 'Bind',
+          group: 'o',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Stun Edge',
+          secondItem: 'Zero Gravity',
+          group: 'i',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
             }
           ]
         }
@@ -6079,6 +3643,84 @@ export class AppData {
             {
               crystal: 'Hungry',
               effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Brutal Blast',
+      chars: 'T',
+      melding: [
+        {
+          firstItem: 'Stun Edge',
+          secondItem: 'Mine Shield',
+          group: 'o',
+          percent: '70',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Binding Strike',
+          secondItem: 'Mine Square',
+          group: 'l',
+          percent: '70',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
             },
             {
               crystal: 'Abounding',
@@ -6275,26 +3917,26 @@ export class AppData {
       ]
     },
     {
-      name: 'Collision Magnet',
-      chars: 'TVA',
+      name: 'Salvation',
+      chars: 'V',
       melding: [
         {
-          firstItem: 'Quick Blitz',
-          secondItem: 'Magnera',
-          group: 'k',
-          percent: '80',
+          firstItem: 'Wind Raid',
+          secondItem: 'Curaga',
+          group: 'n',
+          percent: '100',
           crystalEffect: [
             {
               crystal: 'Shimmering',
-              effect: 'Thunder Screen'
+              effect: 'Cure Boost'
             },
             {
               crystal: 'Fleeting',
-              effect: 'Attack Haste'
+              effect: 'Reload Boost'
             },
             {
               crystal: 'Pulsing',
-              effect: 'Finish Boost'
+              effect: 'Second Chance'
             },
             {
               crystal: 'Wellspring',
@@ -6302,43 +3944,7 @@ export class AppData {
             },
             {
               crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Stun Edge',
-          secondItem: 'Magnera',
-          group: 'l',
-          percent: '80',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
+              effect: 'Defender'
             },
             {
               crystal: 'Hungry',
@@ -6347,42 +3953,6 @@ export class AppData {
             {
               crystal: 'Abounding',
               effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Zero Gravira',
-          secondItem: 'Magnet',
-          group: 'i',
-          percent: '80',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
             }
           ]
         }
@@ -6545,26 +4115,26 @@ export class AppData {
       ]
     },
     {
-      name: 'Salvation',
-      chars: 'V',
+      name: 'Collision Magnet',
+      chars: 'TVA',
       melding: [
         {
-          firstItem: 'Wind Raid',
-          secondItem: 'Curaga',
-          group: 'n',
-          percent: '100',
+          firstItem: 'Quick Blitz',
+          secondItem: 'Magnera',
+          group: 'k',
+          percent: '80',
           crystalEffect: [
             {
               crystal: 'Shimmering',
-              effect: 'Cure Boost'
+              effect: 'Thunder Screen'
             },
             {
               crystal: 'Fleeting',
-              effect: 'Reload Boost'
+              effect: 'Attack Haste'
             },
             {
               crystal: 'Pulsing',
-              effect: 'Second Chance'
+              effect: 'Finish Boost'
             },
             {
               crystal: 'Wellspring',
@@ -6572,7 +4142,43 @@ export class AppData {
             },
             {
               crystal: 'Soothing',
-              effect: 'Defender'
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Stun Edge',
+          secondItem: 'Magnera',
+          group: 'l',
+          percent: '80',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
             },
             {
               crystal: 'Hungry',
@@ -6581,6 +4187,42 @@ export class AppData {
             {
               crystal: 'Abounding',
               effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Zero Gravira',
+          secondItem: 'Magnet',
+          group: 'i',
+          percent: '80',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
             }
           ]
         }
@@ -6701,228 +4343,6 @@ export class AppData {
             {
               crystal: 'Abounding',
               effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Warp',
-      chars: 'T',
-      melding: [
-        {
-          firstItem: 'Thundara',
-          secondItem: 'Zero Gravira',
-          group: 'i',
-          percent: '20',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Zero Gravity',
-          secondItem: 'Zero Gravira',
-          group: 'm',
-          percent: '20',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Zero Gravira',
-          secondItem: 'Zero Gravira',
-          group: 'n',
-          percent: '20',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Second Chance'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Defender'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
-            }
-          ]
-        },
-        {
-          firstItem: 'Thunder',
-          secondItem: 'Zero Gravity',
-          group: 'i',
-          percent: '10',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Thunder Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        },
-        {
-          firstItem: 'Magnet',
-          secondItem: 'Aero',
-          group: 'p',
-          percent: '10',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Dark Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Air Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Walker'
-            }
-          ]
-        },
-        {
-          firstItem: 'Zero Gravity',
-          secondItem: 'Zero Gravity',
-          group: 'm',
-          percent: '10',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Cure Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Magic Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Combo F Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Item Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'Treasure Magnet'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Lucky Strike'
             }
           ]
         }
@@ -7073,6 +4493,156 @@ export class AppData {
             {
               crystal: 'Abounding',
               effect: 'EXP Walker'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Fira',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Fire Dash',
+          secondItem: 'Fire',
+          group: 'd',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Fire Strike',
+          secondItem: 'Fire',
+          group: 'd',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Fire',
+          secondItem: 'Fire',
+          group: 'a',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Fire',
+          secondItem: 'Ignite',
+          group: 'c',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
             }
           ]
         }
@@ -7613,18 +5183,18 @@ export class AppData {
       ]
     },
     {
-      name: 'Stopra',
+      name: 'Blizzara',
       chars: 'TVA',
       melding: [
         {
-          firstItem: 'Slow',
-          secondItem: 'Slow',
-          group: 'l',
+          firstItem: 'Strike Raid',
+          secondItem: 'Blizzard',
+          group: 'g',
           percent: '100',
           crystalEffect: [
             {
               crystal: 'Shimmering',
-              effect: 'Thunder Screen'
+              effect: 'Blizzard Screen'
             },
             {
               crystal: 'Fleeting',
@@ -7632,19 +5202,19 @@ export class AppData {
             },
             {
               crystal: 'Pulsing',
-              effect: 'Finish Boost'
+              effect: 'Leaf Bracer'
             },
             {
               crystal: 'Wellspring',
-              effect: 'Combo Plus'
+              effect: 'Air Combo Plus'
             },
             {
               crystal: 'Soothing',
-              effect: 'HP Boost'
+              effect: 'Item Boost'
             },
             {
               crystal: 'Hungry',
-              effect: 'Treasure Magnet'
+              effect: 'HP Prize Plus'
             },
             {
               crystal: 'Abounding',
@@ -7653,14 +5223,14 @@ export class AppData {
           ]
         },
         {
-          firstItem: 'Slow',
-          secondItem: 'Stop',
-          group: 'k',
+          firstItem: 'Blizzard Edge',
+          secondItem: 'Blizzard',
+          group: 'g',
           percent: '100',
           crystalEffect: [
             {
               crystal: 'Shimmering',
-              effect: 'Thunder Screen'
+              effect: 'Blizzard Screen'
             },
             {
               crystal: 'Fleeting',
@@ -7668,7 +5238,43 @@ export class AppData {
             },
             {
               crystal: 'Pulsing',
-              effect: 'Finish Boost'
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Blizzard',
+          secondItem: 'Blizzard',
+          group: 'e',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Blizzard Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
             },
             {
               crystal: 'Wellspring',
@@ -7676,27 +5282,27 @@ export class AppData {
             },
             {
               crystal: 'Soothing',
-              effect: 'HP Boost'
+              effect: 'Item Boost'
             },
             {
               crystal: 'Hungry',
-              effect: 'Treasure Magnet'
+              effect: 'HP Prize Plus'
             },
             {
               crystal: 'Abounding',
-              effect: 'Link Prize Plus'
+              effect: 'Lucky Strike'
             }
           ]
         },
         {
-          firstItem: 'Stop',
-          secondItem: 'Stop',
-          group: 'i',
+          firstItem: 'Blizzard',
+          secondItem: 'Aero',
+          group: 'h',
           percent: '100',
           crystalEffect: [
             {
               crystal: 'Shimmering',
-              effect: 'Thunder Boost'
+              effect: 'Blizzard Screen'
             },
             {
               crystal: 'Fleeting',
@@ -7712,15 +5318,15 @@ export class AppData {
             },
             {
               crystal: 'Soothing',
-              effect: 'HP Boost'
+              effect: 'Item Boost'
             },
             {
               crystal: 'Hungry',
-              effect: 'Treasure Magnet'
+              effect: 'HP Prize Plus'
             },
             {
               crystal: 'Abounding',
-              effect: 'Link Prize Plus'
+              effect: 'EXP Walker'
             }
           ]
         }
@@ -7955,6 +5561,234 @@ export class AppData {
       ]
     },
     {
+      name: 'Thundara',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Stun Edge',
+          secondItem: 'Thunder',
+          group: 'k',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Thunder',
+          secondItem: 'Thunder',
+          group: 'i',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Zero Gravity',
+          secondItem: 'Magnet',
+          group: 'l',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Thundaga',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Binding Strike',
+          secondItem: 'Thundara',
+          group: 'k',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Thunder',
+          secondItem: 'Thundara',
+          group: 'i',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Thundara',
+          secondItem: 'Thundara',
+          group: 'j',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Once More'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Chance'
+            }
+          ]
+        }
+      ]
+    },
+    {
       name: 'Thundaga Shot',
       chars: 'A',
       melding: [
@@ -8069,6 +5903,498 @@ export class AppData {
       ]
     },
     {
+      name: 'Cura',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Thunder',
+          secondItem: 'Cure',
+          group: 'i',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Cure',
+          secondItem: 'Cure',
+          group: 'm',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Cure',
+          secondItem: 'Aero',
+          group: 'o',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Curaga',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Cure',
+          secondItem: 'Cura',
+          group: 'm',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Cura',
+          secondItem: 'Cura',
+          group: 'n',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Second Chance'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Mine Shield',
+      chars: 'TV',
+      melding: [
+        {
+          firstItem: 'Fira',
+          secondItem: 'Zero Gravity',
+          group: 'a',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Fira',
+          secondItem: 'Block',
+          group: 'c',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Ignite',
+          secondItem: 'Stop',
+          group: 'd',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Stopra',
+          secondItem: 'Block',
+          group: 'm',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Mine Square',
+      chars: 'A',
+      melding: [
+        {
+          firstItem: 'Fira',
+          secondItem: 'Stop',
+          group: 'a',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Fira',
+          secondItem: 'Barrier',
+          group: 'c',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Aerora',
+          secondItem: 'Ignite',
+          group: 'd',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Stopra',
+          secondItem: 'Barrier',
+          group: 'm',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
       name: 'Seeker Mine',
       chars: 'A',
       melding: [
@@ -8177,6 +6503,426 @@ export class AppData {
             {
               crystal: 'Abounding',
               effect: 'Link Prize Plus'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Zero Gravira',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Thunder',
+          secondItem: 'Zero Gravity',
+          group: 'i',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Zero Gravity',
+          secondItem: 'Zero Gravity',
+          group: 'm',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Magnet',
+          secondItem: 'Aero',
+          group: 'p',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Walker'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Zero Graviga',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Thundara',
+          secondItem: 'Zero Gravira',
+          group: 'i',
+          percent: '80',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Zero Gravity',
+          secondItem: 'Zero Gravira',
+          group: 'm',
+          percent: '80',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Zero Gravira',
+          secondItem: 'Zero Gravira',
+          group: 'n',
+          percent: '80',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Second Chance'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Magnera',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Stun Edge',
+          secondItem: 'Magnet',
+          group: 'k',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Thunder',
+          secondItem: 'Magnet',
+          group: 'i',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Magnet',
+          secondItem: 'Magnet',
+          group: 'm',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Magnega',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Magnet',
+          secondItem: 'Magnera',
+          group: 'i',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Magnera',
+          secondItem: 'Magnera',
+          group: 'j',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Once More'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Chance'
             }
           ]
         }
@@ -8417,6 +7163,234 @@ export class AppData {
       ]
     },
     {
+      name: 'Aerora',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Quick Blitz',
+          secondItem: 'Aero',
+          group: 'g',
+          percent: '95',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Blizzard Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Thunder',
+          secondItem: 'Aero',
+          group: 'i',
+          percent: '95',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Aero',
+          secondItem: 'Aero',
+          group: 'e',
+          percent: '95',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Blizzard Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Aeroga',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Quick Blitz',
+          secondItem: 'Aerora',
+          group: 'o',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Aero',
+          secondItem: 'Aerora',
+          group: 'm',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Aerora',
+          secondItem: 'Aerora',
+          group: 'n',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Second Chance'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
       name: 'Faith',
       chars: 'V',
       melding: [
@@ -8445,6 +7419,228 @@ export class AppData {
             {
               crystal: 'Soothing',
               effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Warp',
+      chars: 'T',
+      melding: [
+        {
+          firstItem: 'Thundara',
+          secondItem: 'Zero Gravira',
+          group: 'i',
+          percent: '20',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Zero Gravity',
+          secondItem: 'Zero Gravira',
+          group: 'm',
+          percent: '20',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Zero Gravira',
+          secondItem: 'Zero Gravira',
+          group: 'n',
+          percent: '20',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Second Chance'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Thunder',
+          secondItem: 'Zero Gravity',
+          group: 'i',
+          percent: '10',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Magnet',
+          secondItem: 'Aero',
+          group: 'p',
+          percent: '10',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Walker'
+            }
+          ]
+        },
+        {
+          firstItem: 'Zero Gravity',
+          secondItem: 'Zero Gravity',
+          group: 'm',
+          percent: '10',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
             },
             {
               crystal: 'Hungry',
@@ -9245,162 +8441,6 @@ export class AppData {
       ]
     },
     {
-      name: 'Mega Flare',
-      chars: 'TVA',
-      melding: [
-        {
-          firstItem: 'Fission Firaga',
-          secondItem: 'Crawling Fire',
-          group: 'b',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Once More'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Damage Syphon'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Chance'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Meteor',
-      chars: 'T',
-      melding: [
-        {
-          firstItem: 'Geo Impact',
-          secondItem: 'Quake',
-          group: 'b',
-          percent: '100',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Once More'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Damage Syphon'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Chance'
-            }
-          ]
-        },
-        {
-          firstItem: 'Brutal Blast',
-          secondItem: 'Zero Graviga',
-          group: 'b',
-          percent: '10',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Boost'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Reload Boost'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Once More'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'Damage Syphon'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'EXP Chance'
-            }
-          ]
-        },
-        {
-          firstItem: 'Brutal Blast',
-          secondItem: 'Magnega',
-          group: 'c',
-          percent: '10',
-          crystalEffect: [
-            {
-              crystal: 'Shimmering',
-              effect: 'Fire Screen'
-            },
-            {
-              crystal: 'Fleeting',
-              effect: 'Attack Haste'
-            },
-            {
-              crystal: 'Pulsing',
-              effect: 'Finish Boost'
-            },
-            {
-              crystal: 'Wellspring',
-              effect: 'Combo Plus'
-            },
-            {
-              crystal: 'Soothing',
-              effect: 'HP Boost'
-            },
-            {
-              crystal: 'Hungry',
-              effect: 'HP Prize Plus'
-            },
-            {
-              crystal: 'Abounding',
-              effect: 'Link Prize Plus'
-            }
-          ]
-        }
-      ]
-    },
-    {
       name: 'Tornado',
       chars: 'V',
       melding: [
@@ -9659,6 +8699,348 @@ export class AppData {
       ]
     },
     {
+      name: 'Mega Flare',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Fission Firaga',
+          secondItem: 'Crawling Fire',
+          group: 'b',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Once More'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Damage Syphon'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Chance'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Quake',
+      chars: 'T',
+      melding: [
+        {
+          firstItem: 'Brutal Blast',
+          secondItem: 'Zero Graviga',
+          group: 'b',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Once More'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Damage Syphon'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Chance'
+            }
+          ]
+        },
+        {
+          firstItem: 'Brutal Blast',
+          secondItem: 'Magnega',
+          group: 'c',
+          percent: '90',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Stun Edge',
+          secondItem: 'Mine Shield',
+          group: 'o',
+          percent: '30',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Binding Strike',
+          secondItem: 'Mine Square',
+          group: 'l',
+          percent: '30',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Brutal Blast',
+          secondItem: 'Brutal Blast',
+          group: 'n',
+          percent: '30',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Second Chance'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Meteor',
+      chars: 'T',
+      melding: [
+        {
+          firstItem: 'Geo Impact',
+          secondItem: 'Quake',
+          group: 'b',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Once More'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Damage Syphon'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Chance'
+            }
+          ]
+        },
+        {
+          firstItem: 'Brutal Blast',
+          secondItem: 'Zero Graviga',
+          group: 'b',
+          percent: '10',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Once More'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Damage Syphon'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Chance'
+            }
+          ]
+        },
+        {
+          firstItem: 'Brutal Blast',
+          secondItem: 'Magnega',
+          group: 'c',
+          percent: '10',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        }
+      ]
+    },
+    {
       name: 'Transcendence',
       chars: 'TVA',
       melding: [
@@ -9815,12 +9197,84 @@ export class AppData {
       ]
     },
     {
-      name: 'Homing Slide',
-      chars: 'VA',
+      name: 'Blackout',
+      chars: 'TVA',
       melding: [
         {
-          firstItem: 'Sliding Dash',
-          secondItem: 'Magnera',
+          firstItem: 'Zero Gravity',
+          secondItem: 'Confuse',
+          group: 'm',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Zero Gravira',
+          secondItem: 'Confuse',
+          group: 'n',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Second Chance'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Zero Gravira',
+          secondItem: 'Poison',
           group: 'p',
           percent: '100',
           crystalEffect: [
@@ -9853,10 +9307,52 @@ export class AppData {
               effect: 'EXP Walker'
             }
           ]
+        }
+      ]
+    },
+    {
+      name: 'Ignite',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Fire',
+          secondItem: 'Bind',
+          group: 'a',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Leaf Bracer'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
         },
         {
-          firstItem: 'Sliding Dash',
-          secondItem: 'Air Slide',
+          firstItem: 'Fira',
+          secondItem: 'Bind',
           group: 'c',
           percent: '100',
           crystalEffect: [
@@ -9889,10 +9385,16 @@ export class AppData {
               effect: 'Link Prize Plus'
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      name: 'Stopra',
+      chars: 'TVA',
+      melding: [
         {
-          firstItem: 'Magnet',
-          secondItem: 'Air Slide',
+          firstItem: 'Slow',
+          secondItem: 'Slow',
           group: 'l',
           percent: '100',
           crystalEffect: [
@@ -9923,6 +9425,156 @@ export class AppData {
             {
               crystal: 'Abounding',
               effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Slow',
+          secondItem: 'Stop',
+          group: 'k',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Stop',
+          secondItem: 'Stop',
+          group: 'i',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Stopga',
+      chars: 'TVA',
+      melding: [
+        {
+          firstItem: 'Stop',
+          secondItem: 'Stopra',
+          group: 'i',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Stopra',
+          secondItem: 'Stopra',
+          group: 'j',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Once More'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Chance'
             }
           ]
         }
@@ -10313,6 +9965,276 @@ export class AppData {
       ]
     },
     {
+      name: 'Homing Slide',
+      chars: 'VA',
+      melding: [
+        {
+          firstItem: 'Sliding Dash',
+          secondItem: 'Magnera',
+          group: 'p',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Walker'
+            }
+          ]
+        },
+        {
+          firstItem: 'Sliding Dash',
+          secondItem: 'Air Slide',
+          group: 'c',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        },
+        {
+          firstItem: 'Magnet',
+          secondItem: 'Air Slide',
+          group: 'l',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Renewal Block',
+      chars: 'TV',
+      melding: [
+        {
+          firstItem: 'Curaga',
+          secondItem: 'Block',
+          group: 'p',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Walker'
+            }
+          ]
+        },
+        {
+          firstItem: 'Esuna',
+          secondItem: 'Block',
+          group: 'c',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Fire Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'HP Prize Plus'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Stun Block',
+      chars: 'TV',
+      melding: [
+        {
+          firstItem: 'Stun Edge',
+          secondItem: 'Block',
+          group: 'l',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Attack Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Finish Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
+            }
+          ]
+        },
+        {
+          firstItem: 'Thundaga',
+          secondItem: 'Block',
+          group: 'i',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Thunder Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'HP Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Link Prize Plus'
+            }
+          ]
+        }
+      ]
+    },
+    {
       name: 'Poison Block',
       chars: 'TV',
       melding: [
@@ -10385,6 +10307,84 @@ export class AppData {
             {
               crystal: 'Abounding',
               effect: 'EXP Walker'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Renewal Barrier',
+      chars: 'A',
+      melding: [
+        {
+          firstItem: 'Curaga',
+          secondItem: 'Barrier',
+          group: 'p',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Dark Screen'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Magic Haste'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Combo F Boost'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Air Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Item Boost'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'EXP Walker'
+            }
+          ]
+        },
+        {
+          firstItem: 'Esuna',
+          secondItem: 'Barrier',
+          group: 'n',
+          percent: '100',
+          crystalEffect: [
+            {
+              crystal: 'Shimmering',
+              effect: 'Cure Boost'
+            },
+            {
+              crystal: 'Fleeting',
+              effect: 'Reload Boost'
+            },
+            {
+              crystal: 'Pulsing',
+              effect: 'Second Chance'
+            },
+            {
+              crystal: 'Wellspring',
+              effect: 'Combo Plus'
+            },
+            {
+              crystal: 'Soothing',
+              effect: 'Defender'
+            },
+            {
+              crystal: 'Hungry',
+              effect: 'Treasure Magnet'
+            },
+            {
+              crystal: 'Abounding',
+              effect: 'Lucky Strike'
             }
           ]
         }
@@ -10511,12 +10511,12 @@ export class AppData {
       ]
     },
     {
-      name: 'Payback Fang',
-      chars: 'T',
+      name: 'Payback Raid',
+      chars: 'V',
       melding: [
         {
           firstItem: 'Sliding Dash',
-          secondItem: 'Counter Hammer',
+          secondItem: 'Strike Raid',
           group: 'p',
           percent: '100',
           crystalEffect: [
@@ -10553,12 +10553,12 @@ export class AppData {
       ]
     },
     {
-      name: 'Payback Raid',
-      chars: 'V',
+      name: 'Payback Fang',
+      chars: 'T',
       melding: [
         {
           firstItem: 'Sliding Dash',
-          secondItem: 'Strike Raid',
+          secondItem: 'Counter Hammer',
           group: 'p',
           percent: '100',
           crystalEffect: [
