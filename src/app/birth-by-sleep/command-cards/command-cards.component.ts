@@ -18,10 +18,10 @@ export class CommandCardsComponent implements OnInit {
   constructor(public breakpointObserver: BreakpointObserver) { }
 
   ngOnInit(): void {
-    this.isMobile = this.breakpointObserver.isMatched([Breakpoints.Small, Breakpoints.HandsetPortrait]);
+    this.isMobile = this.breakpointObserver.isMatched([Breakpoints.Medium, Breakpoints.Small, Breakpoints.HandsetPortrait]);
 
     this.breakpointObserver
-      .observe([Breakpoints.Small, Breakpoints.HandsetPortrait])
+      .observe([Breakpoints.Medium, Breakpoints.Small, Breakpoints.HandsetPortrait])
       .subscribe((state: BreakpointState) => {
         this.isMobile = state.matches;
       });
