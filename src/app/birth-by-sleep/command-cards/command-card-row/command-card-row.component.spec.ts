@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BirthBySleepComponent } from './birth-by-sleep.component';
+import { CommandCardRowComponent } from './command-card-row.component';
 
-describe('BirthBySleepComponent', () => {
-  let component: BirthBySleepComponent;
-  let fixture: ComponentFixture<BirthBySleepComponent>;
+describe('CommandCardRowComponent', () => {
+  let component: CommandCardRowComponent;
+  let fixture: ComponentFixture<CommandCardRowComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [BirthBySleepComponent]
+      declarations: [CommandCardRowComponent]
     })
       .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BirthBySleepComponent);
+    fixture = TestBed.createComponent(CommandCardRowComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,0 +1,32 @@
+<mat-card class="m-3">
+    <mat-card-title>
+        {{ command.name}}
+        <mat-icon [class.favorite]="command.favorite" (click)="changeFavorite()">star</mat-icon>
+    </mat-card-title>
+    <mat-card-content>
+        <div>
+            <span><b>Characters: </b>{{ characters }}</span>
+        </div>
+        <div>
+            <h3>Melding</h3>
+            <div *ngFor="let element of command.melding" class="melding-entry">
+                <div class="d-flex justify-content-between">
+                    <span>
+                        {{element.firstItem}} + {{element.secondItem}} ({{element.percent}}%)
+                    </span>
+                    <mat-icon (click)="toggleDetails(element)">{{ element.showDetails? 'expand_less' : 'expand_more' }}
+                    </mat-icon>
+                </div>
+                <div class="crystals" *ngIf="element.showDetails">
+                    <div><b>Shimmering:</b> {{element.crystalEffect?.Shimmering}}</div>
+                    <div><b>Fleeting:</b> {{element.crystalEffect?.Fleeting}}</div>
+                    <div><b>Pulsing:</b> {{element.crystalEffect?.Pulsing}}</div>
+                    <div><b>Wellspring:</b> {{element.crystalEffect?.Wellspring}}</div>
+                    <div><b>Soothing:</b> {{element.crystalEffect?.Soothing}}</div>
+                    <div><b>Hungry:</b> {{element.crystalEffect?.Hungry}}</div>
+                    <div><b>Abounding:</b> {{element.crystalEffect?.Abounding}}</div>
+                </div>
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>

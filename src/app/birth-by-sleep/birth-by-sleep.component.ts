@@ -115,7 +115,7 @@ export class BirthBySleepComponent implements OnInit {
     this.applyFilter();
   }
 
-  commandFavoriteChanged(event: {name: string, favorite: boolean}): void {
+  commandFavoriteChanged(event: { name: string, favorite: boolean }): void {
     this.commands.find(x => x.name === event.name).favorite = event.favorite;
     this.applyFilter();
     this.saveFavoriteToStore();
@@ -159,7 +159,7 @@ export class BirthBySleepComponent implements OnInit {
     }
 
     if (this.orderBy) {
-      if (this.orderBy === 'name'){
+      if (this.orderBy === 'name') {
         filtered = filtered.sort((a, b) => a.name > b.name ? 1 : -1);
       }
     }

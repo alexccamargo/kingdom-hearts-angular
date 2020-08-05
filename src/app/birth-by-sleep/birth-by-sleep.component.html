@@ -2,8 +2,8 @@
   <mat-card-title>
     Filters
   </mat-card-title>
-  <mat-card-content class="d-flex justify-content-between pt-2">
-    <div>
+  <mat-card-content class="d-flex justify-content-between pt-2 flex-column flex-lg-row">
+    <div class="d-flex flex-column flex-md-row">
       <mat-form-field appearance="fill">
         <mat-label>Command</mat-label>
         <mat-select [value]="selectedCommand" (selectionChange)="commandSelected($event)" name="food">
@@ -11,14 +11,14 @@
           <mat-option *ngFor="let filter of commandFilter" [value]=filter>{{filter}}</mat-option>
         </mat-select>
       </mat-form-field>
-      <mat-form-field appearance="fill" class="ml-3">
+      <mat-form-field appearance="fill" class="ml-md-3">
         <mat-label>Effect</mat-label>
         <mat-select [value]="selectedEffect" (selectionChange)="effectSelected($event)">
           <mat-option value="" selected></mat-option>
           <mat-option *ngFor="let filter of effectsFilter" [value]="filter">{{filter}}</mat-option>
         </mat-select>
       </mat-form-field>
-      <mat-form-field appearance="fill" class="ml-3">
+      <mat-form-field appearance="fill" class="ml-md-3">
         <mat-label>Character</mat-label>
         <mat-select [value]="selectedCharacter" (selectionChange)="characterSelected($event)">
           <mat-option value="" selected></mat-option>
@@ -29,9 +29,10 @@
       </mat-form-field>
     </div>
 
-    <div>
-      <mat-slide-toggle [checked]="favorite" (change)="favoriteChanged($event)" class="ml-3">Favorite</mat-slide-toggle>
-      <mat-form-field appearance="fill" class="ml-3">
+    <div class="d-flex flex-column flex-md-row">
+      <mat-slide-toggle [checked]="favorite" (change)="favoriteChanged($event)" class="ml-md-3 mt-3">Favorite
+      </mat-slide-toggle>
+      <mat-form-field appearance="fill" class="ml-md-3">
         <mat-label>Order By</mat-label>
         <mat-select [value]="orderBy" (selectionChange)="orderByChanged($event)">
           <mat-option value="" selected></mat-option>
@@ -42,5 +43,5 @@
   </mat-card-content>
 </mat-card>
 
-<bbs-command-card class="m-3" *ngFor="let command of filteredCommands" [command]="command"
-  (favoriteChanged)="commandFavoriteChanged($event)"></bbs-command-card>
+<bbs-command-cards class="m-3" [commands]="filteredCommands" (favoriteChanged)="commandFavoriteChanged($event)">
+</bbs-command-cards>

@@ -1,0 +1,15 @@
+.melding-entry{
+    mat-icon {
+        color: black;
+    }
+    .crystals {
+        background-color: #f0f0f0;
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        div {
+            width: 230px;
+        }
+    }
+}

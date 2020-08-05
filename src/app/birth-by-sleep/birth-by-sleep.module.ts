@@ -4,13 +4,17 @@ import { CommonModule } from '@angular/common';
 import { SharedModule } from '../shared.module';
 
 import { BirthBySleepComponent } from './birth-by-sleep.component';
-import { CommandCardComponent } from './command-card/command-card.component';
+import { CommandCardsComponent } from './command-cards/command-cards.component';
+import { CommandCardMobileComponent } from './command-cards/command-card-mobile/command-card-mobile.component';
+import { CommandCardRowComponent } from './command-cards/command-card-row/command-card-row.component';
 
 
 @NgModule({
   declarations: [
     BirthBySleepComponent,
-    CommandCardComponent
+    CommandCardsComponent,
+    CommandCardMobileComponent,
+    CommandCardRowComponent
   ],
   imports: [
     CommonModule,

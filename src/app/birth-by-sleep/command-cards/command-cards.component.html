@@ -1,0 +1,7 @@
+<ng-container *ngFor="let command of commands">
+  <bbs-command-card-row *ngIf="!isMobile" class="m-3" [command]="command" (favoriteChanged)="changeFavorite($event)">
+  </bbs-command-card-row>
+
+  <bbs-command-card-mobile *ngIf="isMobile" class="m-3" [command]="command" (favoriteChanged)="changeFavorite($event)">
+  </bbs-command-card-mobile>
+</ng-container>
