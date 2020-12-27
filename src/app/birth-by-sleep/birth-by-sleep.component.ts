@@ -3,10 +3,9 @@ import { cloneDeep } from 'lodash-es';
 
 import { MatSelectChange } from '@angular/material/select';
 
-import { AppData, Command } from '../data';
 import { CommandType } from '../models/birth-by-sleep';
-import { IData } from '../models/shared';
 import { MatSlideToggleChange } from '@angular/material/slide-toggle';
+import { BirthBySleepService } from './birth-by-sleep.service';
 
 @Component({
   selector: 'app-birth-by-sleep',
@@ -25,69 +24,14 @@ export class BirthBySleepComponent implements OnInit {
   selectedEffect: string = null;
   orderBy: string = null;
   favorite = false;
-  favoriteCommandStorageKey = 'fav-com';
 
-  constructor() { }
+  constructor(private service: BirthBySleepService) { }
 
   ngOnInit(): void {
-    this.commands = AppData.commands.map(x => this.parseCommand(x));
+    this.commands = this.service.getCommands();
     this.filteredCommands = this.commands;
-    this.commandFilter = this.getCommandFilter();
-    this.effectsFilter = AppData.effects;
-    this.loadFavoriteFromStore();
-  }
-
-  loadFavoriteFromStore(): void {
-    const favoriteCommandItems = localStorage.getItem(this.favoriteCommandStorageKey);
-    if (favoriteCommandItems) {
-      const favoriteCommand: string[] = JSON.parse(favoriteCommandItems) || [];
-
-      this.commands.forEach(c => {
-        c.favorite = favoriteCommand.includes(c.name);
-      });
-    }
-  }
-
-  saveFavoriteToStore(): void {
-    const favorites = this.commands.filter(x => x.favorite).map(x => x.name);
-    localStorage.setItem(this.favoriteCommandStorageKey, JSON.stringify(favorites));
-  }
-
-  getCommandFilter(): string[] {
-    const result = new Set<string>();
-    AppData.commands.forEach(cmd => {
-      result.add(cmd.name);
-      cmd.melding.forEach(m => {
-        result.add(m.firstItem);
-        result.add(m.secondItem);
-      });
-    });
-    return Array.of(...result).sort();
-  }
-
-  parseCommand(command: Command): CommandType {
-    return ({
-      name: command.name,
-      chars: command.chars,
-      favorite: false,
-      melding: command.melding.map(m => ({
-        firstItem: m.firstItem,
-        secondItem: m.secondItem,
-        percent: m.percent,
-        crystalEffect: this.parseCrystalEffect(m.crystalEffect)
-      }))
-    });
-  }
-
-  parseCrystalEffect(crystalEffect): any {
-    return crystalEffect.reduce((acc: IData, curr) => {
-      acc[curr.crystal] = curr.effect;
-      return acc;
-    }, {});
-  }
-
-  setProperty<T, K extends keyof T>(obj: T, key: K, value: T[K]): void {
-    obj[key] = value;
+    this.commandFilter = this.service.getAllCommandNames();
+    this.effectsFilter = this.service.getEffects();
   }
 
   commandSelected(event: MatSelectChange): void {
@@ -116,9 +60,9 @@ export class BirthBySleepComponent implements OnInit {
   }
 
   commandFavoriteChanged(event: { name: string, favorite: boolean }): void {
-    this.commands.find(x => x.name === event.name).favorite = event.favorite;
+    this.service.changeFavorite(event.name, event.favorite);
+    this.commands = this.service.getCommands();
     this.applyFilter();
-    this.saveFavoriteToStore();
   }
 
   applyFilter(): void {
