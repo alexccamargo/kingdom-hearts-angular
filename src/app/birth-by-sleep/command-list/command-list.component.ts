@@ -1,18 +1,17 @@
 import { Component, OnInit } from '@angular/core';
+import { MatSelectChange } from '@angular/material/select';
+import { MatSlideToggleChange } from '@angular/material/slide-toggle';
 import { cloneDeep } from 'lodash-es';
 
-import { MatSelectChange } from '@angular/material/select';
-
-import { CommandType } from '../models/birth-by-sleep';
-import { MatSlideToggleChange } from '@angular/material/slide-toggle';
-import { BirthBySleepService } from './birth-by-sleep.service';
+import { CommandType } from 'src/app/models/birth-by-sleep';
+import { BirthBySleepService } from '../birth-by-sleep.service';
 
 @Component({
-  selector: 'app-birth-by-sleep',
-  templateUrl: './birth-by-sleep.component.html',
-  styleUrls: ['./birth-by-sleep.component.scss']
+  selector: 'app-command-list',
+  templateUrl: './command-list.component.html',
+  styleUrls: ['./command-list.component.scss']
 })
-export class BirthBySleepComponent implements OnInit {
+export class CommandListComponent implements OnInit {
 
   effectsFilter: string[];
   commandFilter: string[];
@@ -84,12 +83,12 @@ export class BirthBySleepComponent implements OnInit {
     if (this.selectedCommand || this.selectedEffect) {
 
       filtered.forEach(
-        c => c.melding = c.melding.filter(
+        c => c.melding ? c.melding = c.melding.filter(
           m => (
-            (!this.selectedCommand || m.firstItem === this.selectedCommand || m.secondItem === this.selectedCommand) &&
+            (!this.selectedCommand || m.firstItem.name === this.selectedCommand || m.secondItem.name === this.selectedCommand) &&
             (!this.selectedEffect || Object.keys(m.crystalEffect).find(k => m.crystalEffect[k] === this.selectedEffect))
           )
-        )
+        ) : null
       );
 
       filtered = filtered.filter(x => x.melding && x.melding.length);

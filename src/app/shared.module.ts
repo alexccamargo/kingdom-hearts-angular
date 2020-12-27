@@ -13,6 +13,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatChipsModule } from '@angular/material/chips';
+
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -33,6 +35,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatTableModule,
     MatButtonToggleModule,
     MatSlideToggleModule,
+    MatChipsModule,
     NgbModule
   ],
   exports: [
@@ -49,6 +52,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatTableModule,
     MatButtonToggleModule,
     MatSlideToggleModule,
+    MatChipsModule,
     NgbModule
   ],
   providers: [],

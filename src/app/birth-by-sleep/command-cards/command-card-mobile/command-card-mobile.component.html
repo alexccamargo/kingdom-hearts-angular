@@ -4,15 +4,22 @@
         <mat-icon [class.favorite]="command.favorite" (click)="changeFavorite()">star</mat-icon>
     </mat-card-title>
     <mat-card-content>
-        <div>
+        <div class="mt-2">
             <span><b>Characters: </b>{{ characters }}</span>
         </div>
-        <div>
-            <h3>Melding</h3>
+        <div class="mt-2" *ngIf="command.melding?.length">
+            <b>Melding:</b>
             <div *ngFor="let element of command.melding" class="melding-entry">
                 <div class="d-flex justify-content-between">
                     <span>
-                        {{element.firstItem}} + {{element.secondItem}} ({{element.percent}}%)
+                        <button mat-button color="primary" (click)="navigateToCommand(element.firstItem.id)">
+                            {{element.firstItem.name}}
+                        </button>
+                        <span>+</span>
+                        <button mat-button color="primary" (click)="navigateToCommand(element.secondItem.id)">
+                            {{element.secondItem.name}}
+                        </button>
+                        <span>({{element.percent}}%)</span>
                     </span>
                     <mat-icon (click)="toggleDetails(element)">{{ element.showDetails? 'expand_less' : 'expand_more' }}
                     </mat-icon>
@@ -28,5 +35,14 @@
                 </div>
             </div>
         </div>
+        <div class="mt-2" *ngIf="command.ingredientFor && command.ingredientFor.length">
+            <div class="mb-2"><b>Ingredient for: </b></div>
+            <div>
+                <mat-chip-list aria-label="Ingredient for">
+                    <mat-chip *ngFor="let cmd of command.ingredientFor" (click)="navigateToCommand(cmd.id)">{{cmd.name}}</mat-chip>
+                </mat-chip-list>
+            </div>
+        </div>
+
     </mat-card-content>
 </mat-card>

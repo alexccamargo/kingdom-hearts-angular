@@ -1,4 +1,5 @@
 import { Component, OnInit, Output, Input, EventEmitter } from '@angular/core';
+import { Router } from '@angular/router';
 import { CommandType } from 'src/app/models/birth-by-sleep';
 import { SharedFunctions } from '../shared-functions';
 
@@ -18,7 +19,7 @@ export class CommandCardMobileComponent implements OnInit {
 
   characters: string;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     this.characters = SharedFunctions.getCharacters(this.command.chars);
@@ -29,5 +30,9 @@ export class CommandCardMobileComponent implements OnInit {
 
   toggleDetails(element): void {
     element.showDetails = !element.showDetails;
+  }
+
+  navigateToCommand(id) : void {
+    this.router.navigate(['/bbs/' + id]);
   }
 }

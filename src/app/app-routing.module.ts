@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { BirthBySleepComponent } from './birth-by-sleep/birth-by-sleep.component';
+import { CommandDetailComponent } from './birth-by-sleep/command-detail/command-detail.component';
+import { CommandListComponent } from './birth-by-sleep/command-list/command-list.component';
 
 const routes: Routes = [
   {
     path: 'bbs',
-    component: BirthBySleepComponent,
+    component: CommandListComponent,
+  },
+  {
+    path: 'bbs/:id',
+    component: CommandDetailComponent,
   },
   {
     path: '**', redirectTo: 'bbs', pathMatch: 'full'

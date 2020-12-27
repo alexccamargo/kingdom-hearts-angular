@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { cloneDeep } from 'lodash-es';
+import { cloneDeep, uniq } from 'lodash-es';
 
 import { AppData, Command } from '../data';
 import { CommandType } from '../models/birth-by-sleep';
@@ -14,12 +14,16 @@ export class BirthBySleepService {
   private favoriteCommandStorageKey = 'fav-com';
 
   constructor() {
-    this.commands = AppData.commands.map(x => this.parseCommand(x));
+    this.commands = this.processCommands(AppData.commands);
     this.loadFavoriteFromStore();
   }
 
   getCommands(): CommandType[] {
     return cloneDeep(this.commands);
+  }
+
+  getCommand(id: string): CommandType {
+    return this.commands.find(c => c.id === id);
   }
 
   getEffects(): string[] {
@@ -43,19 +47,54 @@ export class BirthBySleepService {
     this.saveFavoriteToStore();
   }
 
-  private parseCommand(command: Command): CommandType {
+  private processCommands(commands: Command[]): CommandType[] {
+    const ingredientsMap = this.getIngredientMaps(commands);
+    const result = AppData.commands.map(x => this.parseCommand(x, ingredientsMap));
+    for(const key of ingredientsMap.keys()) {
+      if(!result.find(r => r.name === key)) {
+        result.push({
+          id: this.formatId(key),
+          name: key,
+          chars: 'TVA',
+          favorite: false,
+          melding: null,
+          ingredientFor: [...ingredientsMap.get(key)].map(this.getCommandTypeId)
+        })
+      }
+    }
+    return result.sort((a, b) => a.name > b.name? 1 : -1);
+  }
+  private formatId(name: string): string {
+    return name.toLowerCase().replace(' ', '-');
+  }
+
+  private getIngredientMaps(commands: Command[]) {
+    return commands
+      .flatMap(c => c.melding.flatMap(m => [{ key: m.firstItem, value: c.name}, {key: m.secondItem, value: c.name}]))
+      .reduce((aggr, curr) => {
+        aggr.has(curr.key) ? aggr.get(curr.key).add(curr.value) : aggr.set(curr.key, new Set([curr.value]));
+        return aggr;
+      },
+    new Map<string, Set<string>>());
+  }
+
+  private parseCommand(command: Command, ingredientsMap: Map<string, Set<string>>): CommandType {
     return ({
+      id: this.formatId(command.name),
       name: command.name,
       chars: command.chars,
       favorite: false,
       melding: command.melding.map(m => ({
-        firstItem: m.firstItem,
-        secondItem: m.secondItem,
+        firstItem: this.getCommandTypeId(m.firstItem),
+        secondItem: this.getCommandTypeId(m.secondItem),
         percent: m.percent,
         crystalEffect: this.parseCrystalEffect(m.crystalEffect)
-      }))
+      })),
+      ingredientFor: ingredientsMap.has(command.name) ? [...ingredientsMap.get(command.name)].map(this.getCommandTypeId) : []
     });
   }
+
+  getCommandTypeId = (commandName) => ({ id: this.formatId(commandName), name: commandName});
 
   private parseCrystalEffect(crystalEffect): any {
     return crystalEffect.reduce((acc: IData, curr) => {

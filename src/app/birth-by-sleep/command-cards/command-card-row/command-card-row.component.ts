@@ -1,4 +1,5 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
+import { Router } from '@angular/router';
 import { CommandType } from 'src/app/models/birth-by-sleep';
 
 import { SharedFunctions } from '../shared-functions';
@@ -32,7 +33,7 @@ export class CommandCardRowComponent implements OnInit {
     'Abounding',
   ];
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     this.characters = SharedFunctions.getCharacters(this.command.chars);
@@ -40,5 +41,9 @@ export class CommandCardRowComponent implements OnInit {
 
   changeFavorite(): void {
     this.favoriteChanged.emit({ name: this.command.name, favorite: !this.command.favorite });
+  }
+
+  navigateToCommand(id) : void {
+    this.router.navigate(['/bbs/' + id]);
   }
 }

@@ -1,0 +1,8 @@
+<a mat-button (click)="backToCommandList()"><mat-icon>arrow_back</mat-icon>Back to command list</a>
+<div class="mx-3">
+    <bbs-command-card-row *ngIf="!isMobile" class="m-3" [command]="command" (favoriteChanged)="commandFavoriteChanged($event)">
+    </bbs-command-card-row>
+  
+    <bbs-command-card-mobile *ngIf="isMobile" class="m-3" [command]="command" (favoriteChanged)="commandFavoriteChanged($event)">
+    </bbs-command-card-mobile>
+</div>
