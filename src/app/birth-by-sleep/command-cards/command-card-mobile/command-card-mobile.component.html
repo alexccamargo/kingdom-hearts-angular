@@ -36,13 +36,20 @@
             </div>
         </div>
         <div class="mt-2" *ngIf="command.ingredientFor && command.ingredientFor.length">
-            <div class="mb-2"><b>Ingredient for: </b></div>
-            <div>
-                <mat-chip-list aria-label="Ingredient for">
-                    <mat-chip *ngFor="let cmd of command.ingredientFor" (click)="navigateToCommand(cmd.id)">{{cmd.name}}</mat-chip>
-                </mat-chip-list>
+            <div class="mb-2"><b>Melds from {{command.name}}: </b></div>
+            <div *ngFor="let cmd of command.ingredientFor">
+                <button mat-button color="primary" (click)="navigateToCommand(cmd.firstItem.id)">
+                    {{cmd.firstItem.name}}
+                </button>
+                <span>+</span>
+                <button mat-button color="primary" (click)="navigateToCommand(cmd.secondItem.id)">
+                    {{cmd.secondItem.name}}
+                </button>
+                <span>=</span>
+                <button mat-button color="primary" (click)="navigateToCommand(cmd.result.id)">
+                    {{cmd.result.name}}
+                </button>
             </div>
         </div>
-
     </mat-card-content>
 </mat-card>

@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { cloneDeep, uniq } from 'lodash-es';
+import { cloneDeep } from 'lodash-es';
 
 import { AppData, Command } from '../data';
-import { CommandType } from '../models/birth-by-sleep';
+import { CommandType, MeldingType } from '../models/birth-by-sleep';
 import { IData } from '../models/shared';
 
 @Injectable({
@@ -58,7 +58,7 @@ export class BirthBySleepService {
           chars: 'TVA',
           favorite: false,
           melding: null,
-          ingredientFor: [...ingredientsMap.get(key)].map(this.getCommandTypeId)
+          ingredientFor: [...ingredientsMap.get(key)]
         })
       }
     }
@@ -70,15 +70,18 @@ export class BirthBySleepService {
 
   private getIngredientMaps(commands: Command[]) {
     return commands
-      .flatMap(c => c.melding.flatMap(m => [{ key: m.firstItem, value: c.name}, {key: m.secondItem, value: c.name}]))
+      .flatMap(c => c.melding.flatMap(m => [
+        { key: m.firstItem, value: { firstItem: this.getCommandTypeId(m.firstItem), secondItem: this.getCommandTypeId(m.secondItem), result: this.getCommandTypeId(c.name) }}, 
+        { key: m.secondItem, value: { firstItem: this.getCommandTypeId(m.secondItem), secondItem: this.getCommandTypeId(m.firstItem), result: this.getCommandTypeId(c.name) }}, 
+      ]))
       .reduce((aggr, curr) => {
         aggr.has(curr.key) ? aggr.get(curr.key).add(curr.value) : aggr.set(curr.key, new Set([curr.value]));
         return aggr;
       },
-    new Map<string, Set<string>>());
+    new Map<string, Set<MeldingType>>());
   }
 
-  private parseCommand(command: Command, ingredientsMap: Map<string, Set<string>>): CommandType {
+  private parseCommand(command: Command, ingredientsMap: Map<string, Set<MeldingType>>): CommandType {
     return ({
       id: this.formatId(command.name),
       name: command.name,
@@ -87,10 +90,11 @@ export class BirthBySleepService {
       melding: command.melding.map(m => ({
         firstItem: this.getCommandTypeId(m.firstItem),
         secondItem: this.getCommandTypeId(m.secondItem),
+        result: this.getCommandTypeId(command.name),
         percent: m.percent,
         crystalEffect: this.parseCrystalEffect(m.crystalEffect)
       })),
-      ingredientFor: ingredientsMap.has(command.name) ? [...ingredientsMap.get(command.name)].map(this.getCommandTypeId) : []
+      ingredientFor: ingredientsMap.has(command.name) ? [...ingredientsMap.get(command.name)] : []
     });
   }
 

@@ -10,12 +10,13 @@ export interface CommandType {
     chars: string;
     favorite: boolean;
     melding: MeldingType[];
-    ingredientFor?: CommandTypeId[];
+    ingredientFor?: MeldingType[];
 }
 
 export interface MeldingType {
     firstItem: CommandTypeId;
     secondItem: CommandTypeId;
-    percent: string;
-    crystalEffect: any;
+    result: CommandTypeId;
+    percent?: string;
+    crystalEffect?: any;
 }

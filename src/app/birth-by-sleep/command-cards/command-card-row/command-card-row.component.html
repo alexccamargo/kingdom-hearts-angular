@@ -75,14 +75,37 @@
       </table>
     </div>
     <div class="mt-3" *ngIf="command.ingredientFor && command.ingredientFor.length">
-      <div class="mb-2"><b>Ingredient for: </b></div>
+      <div class="mb-2"><b>Melds from {{command.name}}: </b></div>
       <div>
         <mat-chip-list aria-label="Ingredient for">
-          <mat-chip *ngFor="let cmd of command.ingredientFor" (click)="navigateToCommand(cmd.id)">{{cmd.name}}
-          </mat-chip>
+          <ng-container *ngFor="let cmd of command.ingredientFor; let last = last;">
+            <mat-chip (click)="navigateToCommand(cmd.firstItem.id)">{{cmd.firstItem.name}}</mat-chip>
+            <span>+</span>
+            <mat-chip (click)="navigateToCommand(cmd.secondItem.id)">{{cmd.secondItem.name}}</mat-chip>
+            <span>=</span>
+            <mat-chip color="primary" selected (click)="navigateToCommand(cmd.result.id)">{{cmd.result.name}}</mat-chip>
+            <span *ngIf="!last"> | </span>
+          </ng-container>
         </mat-chip-list>
       </div>
     </div>
+
+    <!-- <div class="mt-3" *ngIf="command.ingredientFor && command.ingredientFor.length">
+      <div class="mb-2"><b>Ingredient for: </b></div>
+      <div *ngFor="let cmd of command.ingredientFor">
+        <button mat-button color="primary" (click)="navigateToCommand(cmd.firstItem.id)">
+          {{cmd.firstItem.name}}
+        </button>
+        <span>+</span>
+        <button mat-button color="primary" (click)="navigateToCommand(cmd.secondItem.id)">
+          {{cmd.secondItem.name}}
+        </button>
+        <span>=</span>
+        <button mat-button color="primary" (click)="navigateToCommand(cmd.result.id)">
+          {{cmd.result.name}}
+        </button>
+      </div>
+    </div> -->
 
   </mat-card-content>
 </mat-card>
