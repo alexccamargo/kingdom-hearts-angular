@@ -23,6 +23,11 @@ export class AppData {
 
   static commands: Array<Command> = [
     {
+      name: 'Quick Blitz',
+      chars: 'TVA',
+      melding: []
+    },
+    {
       name: 'Blitz',
       chars: 'TVA',
       melding: [
@@ -291,6 +296,11 @@ export class AppData {
           ]
         }
       ]
+    },
+    {
+      name: 'Sliding Dash',
+      chars: 'TVA',
+      melding: []
     },
     {
       name: 'Fire Dash',
@@ -2976,7 +2986,7 @@ export class AppData {
     },
     {
       name: 'Slot Edge',
-      chars: 'A',
+      chars: 'TVA',
       melding: [
         {
           firstItem: 'Wishing Edge',
@@ -4499,6 +4509,21 @@ export class AppData {
       ]
     },
     {
+      name: 'Stomp',
+      chars: 'TVA',
+      melding: []
+    },
+    {
+      name: 'Bloody Bounce',
+      chars: 'TVA',
+      melding: []
+    },
+    {
+      name: 'Fire',
+      chars: 'TVA',
+      melding: []
+    },
+    {
       name: 'Fira',
       chars: 'TVA',
       melding: [
@@ -5183,6 +5208,11 @@ export class AppData {
       ]
     },
     {
+      name: 'Blizzard',
+      chars: 'TVA',
+      melding: []
+    },
+    {
       name: 'Blizzara',
       chars: 'TVA',
       melding: [
@@ -5561,6 +5591,11 @@ export class AppData {
       ]
     },
     {
+      name: 'Thunder',
+      chars: 'TVA',
+      melding: []
+    },
+    {
       name: 'Thundara',
       chars: 'TVA',
       melding: [
@@ -5903,6 +5938,11 @@ export class AppData {
       ]
     },
     {
+      name: 'Cure',
+      chars: 'TVA',
+      melding: []
+    },
+    {
       name: 'Cura',
       chars: 'TVA',
       melding: [
@@ -6095,8 +6135,13 @@ export class AppData {
       ]
     },
     {
+      name: 'Esuna',
+      chars: 'TVA',
+      melding: []
+    },
+    {
       name: 'Mine Shield',
-      chars: 'TV',
+      chars: 'TVA',
       melding: [
         {
           firstItem: 'Fira',
@@ -6246,7 +6291,7 @@ export class AppData {
     },
     {
       name: 'Mine Square',
-      chars: 'A',
+      chars: 'TVA',
       melding: [
         {
           firstItem: 'Fira',
@@ -6509,6 +6554,11 @@ export class AppData {
       ]
     },
     {
+      name: 'Zero Gravity',
+      chars: 'TVA',
+      melding: []
+    },
+    {
       name: 'Zero Gravira',
       chars: 'TVA',
       melding: [
@@ -6735,6 +6785,11 @@ export class AppData {
           ]
         }
       ]
+    },
+    {
+      name: 'Magnet',
+      chars: 'TVA',
+      melding: []
     },
     {
       name: 'Magnera',
@@ -7161,6 +7216,11 @@ export class AppData {
           ]
         }
       ]
+    },
+    {
+      name: 'Aero',
+      chars: 'TVA',
+      melding: []
     },
     {
       name: 'Aerora',
@@ -7656,7 +7716,7 @@ export class AppData {
     },
     {
       name: 'Deep Freeze',
-      chars: 'A',
+      chars: 'TVA',
       melding: [
         {
           firstItem: 'Freeze Raid',
@@ -9389,6 +9449,31 @@ export class AppData {
       ]
     },
     {
+      name: 'Confuse',
+      chars: 'TVA',
+      melding: []
+    },
+    {
+      name: 'Bind',
+      chars: 'TVA',
+      melding: []
+    },
+    {
+      name: 'Poison',
+      chars: 'TVA',
+      melding: []
+    },
+    {
+      name: 'Slow',
+      chars: 'TVA',
+      melding: []
+    },
+    {
+      name: 'Stop',
+      chars: 'TVA',
+      melding: []
+    },
+    {
       name: 'Stopra',
       chars: 'TVA',
       melding: [
@@ -9581,6 +9666,31 @@ export class AppData {
       ]
     },
     {
+      name: 'Sleep',
+      chars: 'TVA',
+      melding: []
+    },
+    {
+      name: 'Aromatherapy',
+      chars: 'TVA',
+      melding: []
+    },
+    {
+      name: 'Jump',
+      chars: 'TVA',
+      melding: []
+    },
+    {
+      name: 'High Jump',
+      chars: 'TVA',
+      melding: []
+    },
+    {
+      name: 'Dodge Roll',
+      chars: 'V',
+      melding: []
+    },
+    {
       name: 'Thunder Roll',
       chars: 'V',
       melding: [
@@ -9693,6 +9803,11 @@ export class AppData {
           ]
         }
       ]
+    },
+    {
+      name: 'Cartwheel',
+      chars: 'A',
+      melding: []
     },
     {
       name: 'Firewheel',
@@ -9809,6 +9924,11 @@ export class AppData {
       ]
     },
     {
+      name: 'Air Slide',
+      chars: 'TVA',
+      melding: []
+    },
+    {
       name: 'Ice Slide',
       chars: 'TVA',
       melding: [
@@ -9887,6 +10007,21 @@ export class AppData {
       ]
     },
     {
+      name: 'Reversal',
+      chars: 'V',
+      melding: []
+    },
+    {
+      name: 'Glide',
+      chars: 'V',
+      melding: []
+    },
+    {
+      name: 'Superglide',
+      chars: 'V',
+      melding: []
+    },
+    {
       name: 'Fire Glide',
       chars: 'V',
       melding: [
@@ -9963,6 +10098,16 @@ export class AppData {
           ]
         }
       ]
+    },
+    {
+      name: 'Sonic Impact',
+      chars: 'T',
+      melding: []
+    },
+    {
+      name: 'Slide',
+      chars: 'T',
+      melding: []
     },
     {
       name: 'Homing Slide',
@@ -10079,6 +10224,21 @@ export class AppData {
       ]
     },
     {
+      name: 'Teleport',
+      chars: 'A',
+      melding: []
+    },
+    {
+      name: 'Doubleflight',
+      chars: 'A',
+      melding: []
+    },
+    {
+      name: 'Block',
+      chars: 'TV',
+      melding: []
+    },
+    {
       name: 'Renewal Block',
       chars: 'TV',
       melding: [
@@ -10155,6 +10315,11 @@ export class AppData {
           ]
         }
       ]
+    },
+    {
+      name: 'Focus Block',
+      chars: 'TV',
+      melding: []
     },
     {
       name: 'Stun Block',
@@ -10313,6 +10478,11 @@ export class AppData {
       ]
     },
     {
+      name: 'Barrier',
+      chars: 'A',
+      melding: []
+    },
+    {
       name: 'Renewal Barrier',
       chars: 'A',
       melding: [
@@ -10389,6 +10559,11 @@ export class AppData {
           ]
         }
       ]
+    },
+    {
+      name: 'Focus Barrier',
+      chars: 'A',
+      melding: []
     },
     {
       name: 'Confuse Barrier',
@@ -10511,6 +10686,16 @@ export class AppData {
       ]
     },
     {
+      name: 'Counter Rush',
+      chars: 'V',
+      melding: []
+    },
+    {
+      name: 'Reversal Slash',
+      chars: 'V',
+      melding: []
+    },
+    {
       name: 'Payback Raid',
       chars: 'V',
       melding: [
@@ -10553,6 +10738,11 @@ export class AppData {
       ]
     },
     {
+      name: 'Counter Hammer',
+      chars: 'T',
+      melding: []
+    },
+    {
       name: 'Payback Fang',
       chars: 'T',
       melding: [
@@ -10593,6 +10783,11 @@ export class AppData {
           ]
         }
       ]
+    },
+    {
+      name: 'Counter Blast',
+      chars: 'A',
+      melding: []
     },
     {
       name: 'Payback Surge',
@@ -10671,6 +10866,11 @@ export class AppData {
           ]
         }
       ]
-    }
+    },
+    {
+      name: 'Aerial Recovery ',
+      chars: 'TVA',
+      melding: []
+    },
   ];
 }

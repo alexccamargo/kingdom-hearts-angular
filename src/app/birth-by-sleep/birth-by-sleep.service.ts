@@ -50,19 +50,7 @@ export class BirthBySleepService {
   private processCommands(commands: Command[]): CommandType[] {
     const ingredientsMap = this.getIngredientMaps(commands);
     const result = AppData.commands.map(x => this.parseCommand(x, ingredientsMap));
-    for(const key of ingredientsMap.keys()) {
-      if(!result.find(r => r.name === key)) {
-        result.push({
-          id: this.formatId(key),
-          name: key,
-          chars: 'TVA',
-          favorite: false,
-          melding: null,
-          ingredientFor: [...ingredientsMap.get(key)]
-        })
-      }
-    }
-    return result.sort((a, b) => a.name > b.name? 1 : -1);
+    return result;
   }
   private formatId(name: string): string {
     return name.toLowerCase().replace(' ', '-');
